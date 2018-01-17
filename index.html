@@ -1,92 +1,128 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XDEV_HTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Netscaler Gateway</title>
-<link rel="SHORTCUT ICON" href="vpn/images/AccessGateway.ico" type="image/vnd.microsoft.icon">
-<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<META content=noindex,nofollow,noarchive name=robots>
-<link href="vpn/js/rdx/core/css/rdx.css" rel="stylesheet" type="text/css"/>
-<link href="logon/themes/Default/css/base.css" rel="stylesheet" type="text/css" media="screen" />
-<link rel="stylesheet" href="logon/fonts/citrix-fonts.css" type="text/css">
-<link href="logon/themes/Default/css/custom.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="vpn/js/rdx.js"></script>
-<script type="text/javascript" src="vpn/login.js"></script>
-<script type="text/javascript" src="vpn/js/views.js"></script>
-<script type="text/javascript" src="vpn/js/gateway_login_view.js"></script>
-<script type="text/javascript" src="vpn/js/gateway_login_form_view.js"></script> 
-<style type="text/css">
-body
-{
-  display : none;
-  visibility: hidden;
-}
-</style>
-<SCRIPT language=JavaScript>
-// frame-busting script
-function changePage()
-{
-	if( self == top ) {
-  		 document.getElementsByTagName("body")[0].style.display = 'block' ;
-		 document.getElementsByTagName("body")[0].style.visibility = 'visible' ;
-		 ns_fillName();
-	} else {
-   		top.location = self.location ;
-	}
+<html><head><title>Citrix Access Gateway</title> 
+<link rel="SHORTCUT ICON" href="/vpn/images/AccessGateway.ico" type="image/vnd.microsoft.icon">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="noindex,nofollow,noarchive" name="robots">
+<link href="/vpn/images/caxtonstyle.css" type="text/css" rel="STYLESHEET">
+<body id="bodyTag">
 
-}
-function setFocus(obj)
-{
-   if (obj != null) {
-      obj.focus();
-   }
-}			
-//-->
-</SCRIPT>
-<script type="text/javascript" src="vpn/resources.js"></script>
-<script type="text/javascript" language="javascript">
-var Resources = new ResourceManager("logon/themes/Default/resources/{lang}", "logon");
-var eula = new ResourceManager("logon/themes/EULA/resources/{lang}","custom_strings");
-</script>
-<script type="text/javascript" src="vpn/nsshare.js"></script>
-<META content="MSHTML 6.00.2900.2802" name=GENERATOR>
-</head>
-<body class="ns_body" id=bodyTag>
-<!-- Copyright 2001-2005 Citrix Systems, Inc. All Rights Reserved -->
-<NOSCRIPT>
-<BR><BR>
-<table style="WIDTH: 100%">
-<tr>
- 	<td align="center">
-		<table class="CTXMSAM_LogonFont">
-			<tr id="errorMessageRow">
-				<td class="glowBoxLeft">&nbsp;</td>                            
-				<td class="loginTableMidWidth">
-					<div id="feedbackArea">
-					<div id="feedbackStyle" class="feedbackStyleError">
-					<span id="errorMessageLabel" class="messageStyle">
-					JavaScript is either disabled in or not supported by the Web browser.  
-					To continue logon, use a Web browser that supports JavaScript or enable JavaScript in your current browser.
-					</span>
-					</div>
-					</div>
-				</td>                           
-				<td class="glowBoxRight">&nbsp;</td>
-			</tr>
-		</table>
-	</td>
+<table class="full_width_height" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td valign="top" class="full_width">
+<table class="full_width" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="header_left">&nbsp;</td>
+<td class="header_middle">&nbsp;</td>
 </tr>
-</table>
+<tr>
+<td colspan="2" class="navbar">&nbsp;</td>
+</tr>
+</tbody></table></td></tr>
 
-<table style="display:none">
-</NOSCRIPT>
-<script>
-rdx.FRAMEWORK_BASE = "vpn/js";
-rdx.page.add_event_handler(rdx.events.PAGE_LOADED, new rdx.callback(login, login.do_action_on_load));
 
-$(window).load(function(){randomize(); 
-							resize();});
-$(window).resize(function(){resize();});
-</script>
-</body>
-</html>
+<!-- Logon box -->
+<tr class="mainPane">
+    <td class="carbonBoxBottom" valign="bottom">
+        	<table class="CTXMSAM_LogonFont" cellpadding="0" cellspacing="0" align="center" border="0">
+<tbody><tr>
+<td class="glowBoxTop glowBoxLeft glowBoxTopLeftPng"></td>
+<td class="glowBoxTop glowBoxTopMidPng"></td>
+<td class="glowBoxTop glowBoxRight glowBoxTopRightPng"></td>
+</tr>
+<tr>
+<td class="glowBoxLeft glowBoxMidLeftPng"></td>
+<td class="glowBoxMidPng loginTableMidWidth">
+
+                <form method="post" action="/cgi/login" name="vpnForm" autocomplete="off" style="margin:0" onsubmit="clean_name_cookie();"> 
+                    <table cellspacing="4" cellpadding="0" border="0" width="100%">
+                        <tbody><tr>
+                            <td class="CTX_ContentTitleHeader">
+	                            <div id="ctl08_loginAgentCdaHeaderText" style="padding-left:15px"><span id="Welcome">Welcome</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="CTXMSAM_LogonFont">
+                                <div id="ctl08_loginAgentCdaHeaderText2" style="padding-left:15px">Please log on to continue. (GI)</div>
+                            </td>
+                        </tr>
+                        <tr border="10">
+	                        <td class="CTXMSAM_LogonFont" valign="top">
+	                        	<script language="javascript" type="text/javascript">    
+                				documentWriteActionPane();
+								</script><div class="actionPanePng">
+
+                                    <table width="70%" id="ctl08_inputTable" class="CTXMSAM_LogonFont" cellspacing="0" cellpadding="4" border="0" style="border-width:0px;border-collapse:collapse;">										
+										<tbody><tr><td colspan="3"></td></tr>
+										<tr>
+										<td align="right" style="padding-right:10px;white-space:nowrap;"><span id="User_name" class="CTXMSAM_LogonFont">User&nbsp;name:</span></td>
+										<td colspan="2" style="padding-right:8px;"><input id="Enter user name" class="CTXMSAM_ContentFont" style="font-size: 8pt" type="text" title="Enter Username" name="login" size="30" maxlength="127" onfocus="loginFieldCheck()"></td>
+										</tr>
+										<script language="JavaScript">ns_showpwd();</script><tr><td align="right" style="padding-right:10px;white-space:nowrap;"><span class="CTXMSAM_LogonFont">Windows Password::</span></td><td colspan="2" style="padding-right:8px;"><input class="CTXMSAM_ContentFont" type="Password" title="Enter password" name="passwd1" size="30" maxlength="127" style="width:100%;"></td></tr><tr><td align="right" style="padding-right:10px;white-space:nowrap;"><span class="CTXMSAM_LogonFont">Pin + Token code:</span></td> <td colspan="2" style="padding-right:8px;"><input class="CTXMSAM_ContentFont" type="Password" title="Enter password" name="passwd" size="30" maxlength="127" style="width:100%;" aria-autocomplete="list"></td></tr>
+										<tr>
+										<td></td><td></td><td align="right"><span style="display:none"><img src="/vpn/images/LoginButtonRolloverGlow.gif"></span><input type="submit" id="Log_On" value="Log On" class="CTX_CaxtonButton" onclick="ns_check();" onmouseover="this.className='CTX_CaxtonButton_Hover';" onmouseout="this.className='CTX_CaxtonButton';"></td>
+										</tr>
+									</tbody></table>
+<br> If you have forgot your PIN <a href="https://frejassp.unifiedgov.co.uk/ssp/Unified"> click here.</a> <br>
+<br> <strong>Please read this important information before changing your password <a href="https://desktop.unifiedgov.co.uk/vpn/PasswordPolicy.html"> Click here</a> </strong><br>
+<br> 
+<br> <strong>Any new Modern Desktop password MUST be at least 12 characters </strong><br>
+<br> It will need to include characters from at least three of the four following categories: <br>
+<br>  - uppercase letters <br>
+<br>  - lowercase letters <br>
+<br>  - numbers <br>
+<br>  - symbols / punctuation, for example:  ~!@#$%^&amp;*_-+=`|\(){}[]:;”‘&lt;&gt;,.?/<br>
+
+                                </div>
+	                        </td>
+                        </tr>
+                    </tbody></table>
+                    </form></td><td class="glowBoxRight glowBoxMidRightPng"></td>
+</tr>
+<tr>
+<td class="glowBoxFooter glowBoxLeft glowBoxFooterLeftPng"></td>
+<td class="glowBoxFooter glowBoxFooterMidPng"></td>
+<td class="glowBoxFooter glowBoxRight glowBoxFooterRightPng"></td>
+</tr>
+</tbody></table>
+
+    </td>
+</tr>
+
+<!-- Error message box -->		    
+<tr>
+                <td align="center">
+                    <table class="CTXMSAM_LogonFont">
+                        <tbody><tr id="errorMessageRow">
+                            <td class="glowBoxLeft">&nbsp;</td>
+                            
+                            <td class="loginTableMidWidth">
+                            
+                                
+
+                            
+                            </td>
+                            
+                            <td class="glowBoxRight">&nbsp;</td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+          
+<!-- Footer -->
+<tr class="full_width_height">
+<td valign="bottom">
+<table class="full_width" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td class="watermark">
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+
+</tbody></table>
+
+<div id="scriptArea"></div>
+
+
+
+</body></html>
