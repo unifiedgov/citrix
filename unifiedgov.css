@@ -158,6 +158,10 @@ input:focus, textarea:focus, select:focus, button:focus {
     -moz-box-shadow: 0 0 0 #00823b;
     box-shadow: 0 0 0 #00823b;
 }
+.button:focus {
+    outline: 3px solid #ffbf47;
+}
+
 @media (min-width: 641px) {
     #global-header .header-wrapper {
         padding-left: 15px;
