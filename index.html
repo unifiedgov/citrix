@@ -1,126 +1,94 @@
-<html><head><title>Citrix Access Gateway</title> 
-<link rel="SHORTCUT ICON" href="vpn/images/AccessGateway.ico" type="image/vnd.microsoft.icon">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta content="noindex,nofollow,noarchive" name="robots">
-<link href="vpn/images/caxtonstyle.css" type="text/css" rel="STYLESHEET">
-<body id="bodyTag">
-
-<table class="full_width_height" cellspacing="0" cellpadding="0" border="0">
-<tbody><tr>
-<td valign="top" class="full_width">
-<table class="full_width" cellspacing="0" cellpadding="0">
-<tbody><tr>
-<td class="header_left">&nbsp;</td>
-<td class="header_middle">&nbsp;</td>
-</tr>
-<tr>
-<td colspan="2" class="navbar">&nbsp;</td>
-</tr>
-</tbody></table></td></tr>
-
-
-<!-- Logon box -->
-<tr class="mainPane">
-    <td class="carbonBoxBottom" valign="bottom">
-        	<table class="CTXMSAM_LogonFont" cellpadding="0" cellspacing="0" align="center" border="0">
-<tbody><tr>
-<td class="glowBoxTop glowBoxLeft glowBoxTopLeftPng"></td>
-<td class="glowBoxTop glowBoxTopMidPng"></td>
-<td class="glowBoxTop glowBoxRight glowBoxTopRightPng"></td>
-</tr>
-<tr>
-<td class="glowBoxLeft glowBoxMidLeftPng"></td>
-<td class="glowBoxMidPng loginTableMidWidth">
-
-                <form method="post" action="#" name="vpnForm" autocomplete="off" style="margin:0"> 
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Log in to Modern Desktop</title> 
+    <link rel="shortcut icon" href="vpn/images/AccessGateway.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="unifiedgov.css" rel="stylesheet">
+    <meta content="noindex,nofollow,noarchive" name="robots">
+</head>
+<body>
+    <header role="banner" id="global-header">
+        <div class="header-wrapper">
+            <div class="header-global">
+                <div class="header-logo">
+                    <span id="logo" class="content">
+                    Shared ICT Service
+                    </span>
+                </div>
+                <div class="logos">
+                    <img src="rbk-lbs-afc.jpg" height="98">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div id="wrapper">
+        <main role="main" id="content">
+            <div class="grid-row">
+                <div class="column-two-thirds">
+                    <div class="page-header">
+                        <h1 class="page-header__title">
+                            Log in to Modern Desktop
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid-row">
+                <div class="column-two-thirds">
+                    <form method="post" action="#" name="vpnForm" autocomplete="off" style="margin:0"> 
                     <table cellspacing="4" cellpadding="0" border="0" width="100%">
-                        <tbody><tr>
-                            <td class="CTX_ContentTitleHeader">
-	                            <div id="ctl08_loginAgentCdaHeaderText" style="padding-left:15px"><span id="Welcome">Welcome</span></div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="CTXMSAM_LogonFont">
-                                <div id="ctl08_loginAgentCdaHeaderText2" style="padding-left:15px">Please log on to continue. (GI)</div>
-                            </td>
-                        </tr>
+                        <tbody>
                         <tr border="10">
 	                        <td class="CTXMSAM_LogonFont" valign="top">
 	                        	<div class="actionPanePng">
 
                                     <table width="70%" id="ctl08_inputTable" class="CTXMSAM_LogonFont" cellspacing="0" cellpadding="4" border="0" style="border-width:0px;border-collapse:collapse;">										
-										<tbody><tr><td colspan="3"></td></tr>
+										<tbody>
 										<tr>
-										<td align="right" style="padding-right:10px;white-space:nowrap;"><span id="User_name" class="CTXMSAM_LogonFont">User&nbsp;name:</span></td>
-										<td colspan="2" style="padding-right:8px;"><input id="Enter user name" class="CTXMSAM_ContentFont" style="font-size: 8pt" type="text" title="Enter Username" name="login" size="30" maxlength="127"></td>
+										<td>
+										    <span id="User_name" class="CTXMSAM_LogonFont">Username:</span>
+									    </td>
+										<td colspan="2" style="padding-right:8px;">
+										    <input id="Enter user name" class="CTXMSAM_ContentFont form-control" type="text" title="Enter Username" name="login" maxlength="127">
+										    </td>
 										</tr>
-										<tr><td align="right" style="padding-right:10px;white-space:nowrap;"><span class="CTXMSAM_LogonFont">Windows Password::</span></td><td colspan="2" style="padding-right:8px;"><input class="CTXMSAM_ContentFont" type="Password" title="Enter password" name="passwd1" size="30" maxlength="127" style="width:100%;"></td></tr><tr><td align="right" style="padding-right:10px;white-space:nowrap;"><span class="CTXMSAM_LogonFont">Pin + Token code:</span></td> <td colspan="2" style="padding-right:8px;"><input class="CTXMSAM_ContentFont" type="Password" title="Enter password" name="passwd" size="30" maxlength="127" style="width:100%;" aria-autocomplete="list"></td></tr>
 										<tr>
-										<td></td><td></td><td align="right"><span style="display:none"><img src="vpn/images/LoginButtonRolloverGlow.gif"></span><input type="submit" id="Log_On" value="Log On" class="CTX_CaxtonButton" onmouseover="this.className='CTX_CaxtonButton_Hover';" onmouseout="this.className='CTX_CaxtonButton';"></td>
+										    <td>
+										        <span class="CTXMSAM_LogonFont">Password:</span>
+									        </td>
+									        <td colspan="2" style="padding-right:8px;">
+									            <input class="CTXMSAM_ContentFont form-control" type="Password" title="Enter password" name="passwd1" size="30" maxlength="127" style="width:100%;">
+								            </td>
+							            </tr>
+						                <tr>
+							                <td><span class="CTXMSAM_LogonFont">Pin + token code:</span></td>
+							                <td colspan="2" style="padding-right:8px;">
+							                    <input class="CTXMSAM_ContentFont  form-control" type="Password" title="Enter password" name="passwd" maxlength="127" aria-autocomplete="list">
+								            </td>
+							            </tr>
+										<tr>
+    										<td>
+    										    <span style="display:none">
+    										        <img src="vpn/images/LoginButtonRolloverGlow.gif">
+										        </span>
+										        <input type="submit" id="Log_On" value="Log On" class="CTX_CaxtonButton button button-start">
+									        </td>
+    										<td></td>
+    										<td></td>
 										</tr>
 									</tbody></table>
-<br> If you have forgot your PIN <a href="https://frejassp.unifiedgov.co.uk/ssp/Unified"> click here.</a> <br>
-<br> <strong>Please read this important information before changing your password <a href="PasswordPolicy.html"> Click here</a> </strong><br>
-<br> 
-<br> <strong>Any new Modern Desktop password MUST be at least 12 characters </strong><br>
-<br> It will need to include characters from at least three of the four following categories: <br>
-<br>  - uppercase letters <br>
-<br>  - lowercase letters <br>
-<br>  - numbers <br>
-<br>  - symbols / punctuation, for example:  ~!@#$%^&amp;*_-+=`|\(){}[]:;”‘&lt;&gt;,.?/<br>
-
                                 </div>
 	                        </td>
                         </tr>
                     </tbody></table>
-                    </form></td><td class="glowBoxRight glowBoxMidRightPng"></td>
-</tr>
-<tr>
-<td class="glowBoxFooter glowBoxLeft glowBoxFooterLeftPng"></td>
-<td class="glowBoxFooter glowBoxFooterMidPng"></td>
-<td class="glowBoxFooter glowBoxRight glowBoxFooterRightPng"></td>
-</tr>
-</tbody></table>
-
-    </td>
-</tr>
-
-<!-- Error message box -->		    
-<tr>
-                <td align="center">
-                    <table class="CTXMSAM_LogonFont">
-                        <tbody><tr id="errorMessageRow">
-                            <td class="glowBoxLeft">&nbsp;</td>
-                            
-                            <td class="loginTableMidWidth">
-                            
-                                
-
-                            
-                            </td>
-                            
-                            <td class="glowBoxRight">&nbsp;</td>
-                        </tr>
-                    </tbody></table>
-                </td>
-            </tr>
-          
-<!-- Footer -->
-<tr class="full_width_height">
-<td valign="bottom">
-<table class="full_width" cellspacing="0" cellpadding="0">
-<tbody><tr>
-<td class="watermark">
-</td>
-</tr>
-</tbody></table>
-</td>
-</tr>
-
-</tbody></table>
-
-<div id="scriptArea"></div>
-
-
-
-</body></html>
+                    </form>
+                    
+                    <p>If you are having trouble logging in, <a href="help-guide.html">please read this guide</a>.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
