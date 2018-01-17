@@ -1,0 +1,216 @@
+html { font-size: 62.5%; }
+body {
+    background: #fff; 
+    font-family: Carlito, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0b0c0c;
+    font-size: 160%;
+    line-height: 1.5;
+    font-weight: 400;
+}
+div, header {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#global-header {
+    background-color: #dee0e2;
+    width: 100%;
+}
+#global-header .header-wrapper {
+    background-color: #dee0e2;
+    max-width: 990px;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding: 0;
+}
+#global-header #logo {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    border-bottom: 1px solid transparent;
+    color: #454a4c;
+}
+#global-header .header-wrapper .header-global .header-logo {
+    padding-top: 35px;
+    float: left;
+}
+#global-header .header-wrapper .header-global .header-logo .content {
+    margin: 0 15px;
+}
+#global-header .header-wrapper .header-global .logos {
+    width: 49%;
+    float: right;
+}
+#wrapper {
+    max-width: 960px;
+    margin: 0 15px;
+}
+.grid-row {
+    margin: 0 -15px;
+}
+#global-header .header-wrapper:after, 
+#global-header .header-wrapper .header-global:after, 
+#global-header .header-wrapper .header-global .header-logo:after, 
+.grid-row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.grid-row .column-two-thirds {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.grid-row .column-one-third, 
+.grid-row .column-third {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.community-contact {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+p {
+    margin-top: 0.3125em;
+    margin-bottom: 1.25em;
+}
+a:link {
+    color: #005ea5;
+}
+a:visited {
+    color: #4c2c92;
+}
+.page-header {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.page-header__title {
+    font-weight: 700;
+    text-transform: none;
+    font-size: 32px;
+    line-height: 1.09375;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    box-sizing: border-box;
+    font-family: "nta", Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 100%;
+    padding: 5px 4px 4px;
+    border: 2px solid #0b0c0c;
+}
+input.form-control, textarea.form-control {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 0;
+}
+.button {
+    background-color: #00823b;
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    padding: .526315em .789473em .263157em;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    outline: 1px solid transparent;
+    outline-offset: -1px;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0 2px 0 #003618;
+    -moz-box-shadow: 0 2px 0 #003618;
+    box-shadow: 0 2px 0 #003618;
+    font-size: 1em;
+    line-height: 1.25;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.button:link,
+.button:link:focus,
+.button:hover,
+.button:focus,
+.button:visited {
+    color: #fff;
+}
+.button:hover, .button:focus {
+    background-color: #00692f;
+}
+.button:active {
+    top: 2px;
+    -webkit-box-shadow: 0 0 0 #00823b;
+    -moz-box-shadow: 0 0 0 #00823b;
+    box-shadow: 0 0 0 #00823b;
+}
+@media (min-width: 641px) {
+    #global-header .header-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .page-header {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .page-header__title {
+        font-size: 48px;
+        line-height: 1.0416666667;
+        margin-bottom: 45px;
+    }
+    #wrapper {
+        margin: 0 30px;
+    }
+    p,td {
+        margin-top: 0.2631578947em;
+        margin-bottom: 1.0526315789em;
+        font-size: 19px;
+        line-height: 1.3157894737;
+    }
+    .community-contact {
+        text-align: right;
+        padding-top: 15px;
+    }
+    .grid-row .column-two-thirds {
+        float: left;
+        width: 66.6666666667%;
+    }
+    .grid-row .column-one-third, .grid-row .column-third {
+        float: left;
+        width: 33.3333333333%;
+    }
+    .form-control {
+        font-size: 19px;
+        line-height: 1.31579;
+    }
+}
+            
+@media (min-width: 769px) {
+    #global-header .header-wrapper .header-global .header-logo {
+        width: 33.33%;
+    }
+    #global-header .header-wrapper .header-global .logos {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 1020px) {
+    #wrapper {
+        margin: 0 auto;
+    }
+}
