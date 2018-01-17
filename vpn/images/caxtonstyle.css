@@ -636,93 +636,93 @@ td.glowBoxFooter {
 td.glowBoxMid {
   padding: 7px 15px 15px 15px;
   background-repeat: repeat-x;
-  background-image:url(/vpn/images/LoginPaneCenterMidGlow.gif);
+  background-image:url(LoginPaneCenterMidGlow.gif);
 }
 td.glowBoxTopLeft {
   background-position:bottom right;
   background-repeat:no-repeat;
-  background-image:url(/vpn/images/LoginPaneTopLeftBorderGlow.gif);
+  background-image:url(LoginPaneTopLeftBorderGlow.gif);
 }
 td.glowBoxTopMid {
   background-position:bottom center;
   background-repeat:repeat-x;
-  background-image:url(/vpn/images/LoginPaneTopMidBorderGlow.gif);
+  background-image:url(LoginPaneTopMidBorderGlow.gif);
 }
 td.glowBoxTopRight {
   background-position:bottom left;
   background-repeat:no-repeat;
-  background-image:url(/vpn/images/LoginPaneTopRightBorderGlow.gif);
+  background-image:url(LoginPaneTopRightBorderGlow.gif);
 }
 td.glowBoxMidLeft {
   background-position:center right;
   background-repeat:repeat-y;
-  background-image:url(/vpn/images/LoginPaneCenterLeftBorderGlow.gif);
+  background-image:url(LoginPaneCenterLeftBorderGlow.gif);
 }
 td.glowBoxMidRight {
   background-position:center left;
   background-repeat:repeat-y;
-  background-image:url(/vpn/images/LoginPaneCenterRightBorderGlow.gif);
+  background-image:url(LoginPaneCenterRightBorderGlow.gif);
 }
 td.glowBoxFooterLeft {
   background-position:top right;
   background-repeat:no-repeat;
-  background-image:url(/vpn/images/LoginPaneFooterLeftBorderGlow.gif);
+  background-image:url(LoginPaneFooterLeftBorderGlow.gif);
 }
 td.glowBoxFooterMid {
   background-position:top center;
   background-repeat:repeat-x;
-  background-image:url(/vpn/images/LoginPaneFooterMidBorderGlow.gif);
+  background-image:url(LoginPaneFooterMidBorderGlow.gif);
 }
 td.glowBoxFooterRight {
   background-position:top left;
   background-repeat:no-repeat;
-  background-image:url(/vpn/images/LoginPaneFooterRightBorderGlow.gif);
+  background-image:url(LoginPaneFooterRightBorderGlow.gif);
 }
 
 td.glowBoxMidPng {
   padding: 7px 15px 15px 15px;
   background-repeat: repeat-x;
-  background-image:url(/vpn/images/LoginPaneCenterMidGlow.png);
+  background-image:url(LoginPaneCenterMidGlow.png);
 }
 td.glowBoxTopLeftPng {
   background-position:bottom right;
   background-repeat:no-repeat;
-  background-image:url(/vpn/images/LoginPaneTopLeftBorderGlow.png);
+  background-image:url(LoginPaneTopLeftBorderGlow.png);
 }
 td.glowBoxTopMidPng {
   background-position:bottom center;
   background-repeat:repeat-x;
-  background-image:url(/vpn/images/LoginPaneTopMidBorderGlow.png);
+  background-image:url(LoginPaneTopMidBorderGlow.png);
 }
 td.glowBoxTopRightPng {
   background-position:bottom left;
   background-repeat:no-repeat;
-  background-image:url(/vpn/images/LoginPaneTopRightBorderGlow.png);
+  background-image:url(LoginPaneTopRightBorderGlow.png);
 }
 td.glowBoxMidLeftPng {
   background-position:center right;
   background-repeat:repeat-y;
-  background-image:url(/vpn/images/LoginPaneCenterLeftBorderGlow.png);
+  background-image:url(LoginPaneCenterLeftBorderGlow.png);
 }
 td.glowBoxMidRightPng {
   background-position:center left;
   background-repeat:repeat-y;
-  background-image:url(/vpn/images/LoginPaneCenterRightBorderGlow.png);
+  background-image:url(LoginPaneCenterRightBorderGlow.png);
 }
 td.glowBoxFooterLeftPng {
   background-position:top right;
   background-repeat:no-repeat;
-  background-image:url(/vpn/images/LoginPaneFooterLeftBorderGlow.png);
+  background-image:url(LoginPaneFooterLeftBorderGlow.png);
 }
 td.glowBoxFooterMidPng {
   background-position:top center;
   background-repeat:repeat-x;
-  background-image:url(/vpn/images/LoginPaneFooterMidBorderGlow.png);
+  background-image:url(LoginPaneFooterMidBorderGlow.png);
 }
 td.glowBoxFooterRightPng {
   background-position:top left;
   background-repeat:no-repeat;
-  background-image:url(/vpn/images/LoginPaneFooterRightBorderGlow.png);
+  background-image:url(LoginPaneFooterRightBorderGlow.png);
 }
 
 table.carbonBox {
@@ -732,13 +732,13 @@ table.carbonBox {
 }
 .carbonBoxTop {
     padding-top: 30px;
-    background: black url(/vpn/images/LoginCarbonFiberBgTop.gif) no-repeat bottom center;
+    background: black url(LoginCarbonFiberBgTop.gif) no-repeat bottom center;
 }
 .carbonBoxBottom {
     text-align:center;
     padding-top: 10px;
     padding-bottom: 14px;
-    background: black url(/vpn/images/LoginCarbonFiberBgFooter.gif) no-repeat bottom center;
+    background: black url(LoginCarbonFiberBgFooter.gif) no-repeat bottom center;
 }
 
 .loginTableMidWidth
@@ -815,7 +815,7 @@ div.feedbackStyleError a:hover
 
 div.feedbackStyleSuccess
 {
-    background: #121212 url(/vpn/images/Tick32.gif) no-repeat 21px 8px;
+    background: #121212 url(Tick32.gif) no-repeat 21px 8px;
     border: solid 1px #005707;
     float: left;
     color: #C5C5C5;
@@ -823,7 +823,7 @@ div.feedbackStyleSuccess
 
 div.feedbackStyleInfo
 {
-    background: #121212 url(/vpn/images/Info32.gif) no-repeat 21px 8px;
+    background: #121212 url(Info32.gif) no-repeat 21px 8px;
     border: solid 1px #579BE6;
     float: left;
     color: #C5C5C5;
@@ -831,7 +831,7 @@ div.feedbackStyleInfo
 
 div.feedbackStyleWarning
 {
-    background: #121212 url(/vpn/images/WarningAlert32.gif) no-repeat 21px 8px;
+    background: #121212 url(WarningAlert32.gif) no-repeat 21px 8px;
     border: solid 1px #9C371A;
     float: left;
     color: #C5C5C5;
@@ -839,7 +839,7 @@ div.feedbackStyleWarning
 
 div.feedbackStyleError
 {
-    background: #121212 url(/vpn/images/Error32.gif) no-repeat 21px 8px;
+    background: #121212 url(Error32.gif) no-repeat 21px 8px;
     border: solid 1px #820A0A;
     float: left;
     color: #C5C5C5;
@@ -882,7 +882,7 @@ input.Install_Skip
 .changePasswordPane
 {
   padding: 0;
-  background: url(/vpn/images/GreyGradient.gif) repeat-y;
+  background: url(GreyGradient.gif) repeat-y;
   background-position: 24ex 0;
 }
 
@@ -911,7 +911,7 @@ input.Install_Skip
     clear: both;
     width: 100%;
     height: 1px;
-    background: #FFF url(/vpn/images/FadeLine.gif) no-repeat top left;
+    background: #FFF url(FadeLine.gif) no-repeat top left;
 }
 
 
@@ -1068,7 +1068,7 @@ begin: for VPN choices page
 
 .linkBullet
 {
-    background: transparent url(/vpn/images/BulletArrow.gif) no-repeat center left;
+    background: transparent url(BulletArrow.gif) no-repeat center left;
     padding: 0 0 5px 15px;
 
 }
